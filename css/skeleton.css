@@ -166,7 +166,8 @@ a {
   text-decoration: none;
   border-bottom: 1px dashed black; }
 a:hover {
-  color: #01FF70; }
+  background-color: #01FF70;
+  color: white; }
 
 
 /* Buttons
@@ -421,7 +422,14 @@ there.
 
 
 /* Larger than mobile */
-@media (min-width: 400px) {}
+@media (min-width: 400px) {
+      .main-nav ul {
+        display: none;
+    }
+    .icon-menu {
+        display: block;
+    }
+}
 
 /* Larger than phablet (also point when grid becomes active) */
 @media (min-width: 550px) {}
