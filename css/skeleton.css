@@ -25,6 +25,10 @@
 - Media Queries
 */
 
+/* Font
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
 
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -287,6 +291,7 @@ label > .label-body {
 
 /* Lists
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
 ul {
   list-style: circle inside; }
 ol {
@@ -302,7 +307,19 @@ ol ul {
   font-size: 90%; }
 li {
   margin-bottom: 1rem; }
-
+.site-header ul {
+  display: none;
+  padding: 20px;
+  list-style: none;
+  text-align: center;
+}
+.site-header li {
+  line-height: 140%;
+  font-family: 'Raleway';
+  font-size: 20px;
+  color: black;
+  border-bottom: 1px dashed #ccc;
+}
 
 /* Code
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -409,7 +426,18 @@ there.
 @media (min-width: 550px) {}
 
 /* Larger than tablet */
-@media (min-width: 750px) {}
+@media (min-width: 750px) {
+    .main-nav ul {
+        display: block;
+    }
+    .icon-menu {
+        display: none;
+    }
+    .main-nav ul li {
+        display: inline-block;
+        padding: 0px 20px;
+    }
+}
 
 /* Larger than desktop */
 @media (min-width: 1000px) {}
