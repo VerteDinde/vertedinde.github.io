@@ -162,7 +162,9 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: black; }
+  color: black;
+  text-decoration: none;
+  border-bottom: 1px dotted black; }
 a:hover {
   color: #0FA0CE; }
 
