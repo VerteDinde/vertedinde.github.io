@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <title>Keeley Hammond | Software Developer</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" type="image/png" href="img/favicon.png">
+  <script src="https://use.fontawesome.com/cfbdf30056.js"></script>
+  <script id="blog-template" type="text/x-handlebars-template">
+    <section>
+      <header>
+        <h3>{{ title }}</h3>
+        <div class="byline">
+          <time pubdate datetime="2000-01-01">{{publishStatus}}</time>
+        </div>
+      </header>
+      <section class="blog-body">{{{ body }}}</section>
+      <a href="#" class="read-on">Read on &rarr;</a>
+      <a href="#" class="show-less">Show less &rarr;</a>
+    </section>
+  </script>
+</head>
+<body>
+  <header class="site-header clearfix container" style="margin-top: 5%">
+    <nav class="main-nav">
+      <ul>
+        <li class="tab" data-content="portfolio"><a href="index.html">Home</a></li>
+        <!--<li class="tab" data-content="about"><a href="about.html">About</a></li>-->
+        <li class="tab" data-content="portfolio">Portfolio</li>
+        <li class="tab" data-content="blog">Writing</li>
+        <li class="tab" data-content="speaking"><a href="coffee-tea.html">Speaking</a></li>
+        <li class="tab" data-content="contact"><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="container">
+    <section id="blog" class="tab-content">
+      <h2>Writing</h2>
+    </section>
+  </main>
+  <footer class="site-footer container" style="margin-top: 5%">
+    <div class="social-list container">
+      <div class="one-third column">
+        <a href="http://twitter.com/keeleyhammond"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+      </div>
+      <div class="one-third column">
+        <a href="mailto:keeleymhammond@gmail.com"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a>
+      </div>
+      <div class="one-third column">
+        <a href="http://github.com/vertedinde"><i class="fa fa-github-alt fa-2x" aria-hidden="true"></i></a>
+      </div>
+    </div>
+    <p>&copy; Keeley Hammond | 2017</p>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
